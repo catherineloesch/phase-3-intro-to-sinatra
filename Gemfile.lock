@@ -8,6 +8,9 @@ GEM
       rack
     rack-test (1.1.0)
       rack (>= 1.0, < 3)
+    rspec-core (3.11.0)
+      rspec-support (~> 3.11.0)
+    rspec-support (3.11.0)
     ruby2_keywords (0.0.5)
     sinatra (2.1.0)
       mustermann (~> 1.0)
@@ -18,10 +21,12 @@ GEM
 
 PLATFORMS
   universal-darwin-20
+  x86_64-darwin-21
 
 DEPENDENCIES
   rack-test (~> 1.1)
+  rspec-core
   sinatra (~> 2.1)
 
 BUNDLED WITH
-   2.2.23
+   2.3.10
